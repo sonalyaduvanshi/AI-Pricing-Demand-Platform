@@ -1,34 +1,82 @@
-🚀 AI-Powered Pricing & Demand Intelligence Platform
+ AI-Powered Pricing & Demand Intelligence Platform
 
- 📌 Overview
- 
-This project is an end-to-end AI-powered web application designed to optimize pricing strategies and forecast demand using machine learning techniques. It helps businesses make data-driven decisions to maximize revenue.
+🚀 Overview
+
+An end-to-end data science project that analyzes sales data, predicts demand, and delivers actionable business insights through an interactive dashboard and deployed web application.
+
+
+
+🌐 Live Demo
+
+👉 https://ai-pricing-demand-platform.onrender.com
+
+
+
+📊 Power BI Dashboard
+
+
+  Revenue trends analysis
+  Demand vs Pricing insights
+  Product performance
+  Regional sales distribution
+
+
 
 🎯 Problem Statement
 
-Businesses struggle to:
-- Predict future demand accurately
-- Optimize pricing dynamically
-- Understand customer purchasing patterns
+Businesses often struggle to:
 
-This project solves these problems using predictive analytics and intelligent modeling.
+  Forecast demand accurately
+  Optimize pricing strategies
+  Understand sales behavior
 
-🧠 Features
+This project solves these challenges using data analytics and machine learning.
 
-- 📊 Demand Forecasting using ML models
-- 💰 Revenue Prediction System
-- 🌐 Interactive Web App (Flask)
-- ⚡ Real-time user input predictions
-- 🛠 Error handling & input validation
-- 🔍 Health check API
 
- 🏗 Tech Stack
- 
-- Python (Pandas, NumPy, Scikit-learn)
-- Flask (Backend)
-- HTML/CSS (Frontend UI)
-- Joblib (Model Saving)
-- Gunicorn (Production Server)
-- Render (Deployment)
+💡 Key Features
+
+  📈 Sales & Revenue Analysis
+  🤖 Demand Prediction (Machine Learning)
+  📊 Interactive Power BI Dashboard
+  🌐 Flask Web Application
+  ☁️ Cloud Deployment (Render)
+
+
+🛠️ Tech Stack
+
+ Python (Pandas, NumPy, Scikit-learn)
+ Machine Learning (Regression Models)
+ Flask (Backend + Web App)
+ Power BI (Dashboard & Visualization)
+ GitHub (Version Control)
+ Render (Deployment)
+
+
+
+📂 Project Structure
+
+project/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── templates/
+│   └── index.html
+
+
+
+📊 Business Insights
+
+  Identified revenue trends across time
+  Analyzed pricing impact on demand
+  Detected top-performing products
+  Enabled data-driven decision-making
+
+
+🤖 Machine Learning
+
+ Built regression model for demand prediction
+ Applied feature engineering
 
 
