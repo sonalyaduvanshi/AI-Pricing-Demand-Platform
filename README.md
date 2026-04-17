@@ -1,82 +1,75 @@
- AI-Powered Pricing & Demand Intelligence Platform
+# AI-Powered Pricing & Demand Intelligence Platform with QA Testing
 
-🚀 Overview
+# Overview
 
-An end-to-end data science project that analyzes sales data, predicts demand, and delivers actionable business insights through an interactive dashboard and deployed web application.
-
-
-
-🌐 Live Demo
-
-👉 https://ai-pricing-demand-platform.onrender.com
+An end-to-end data science project enhanced with comprehensive software testing. The system analyzes sales data, predicts demand using machine learning, and is rigorously tested across UI, API, and model layers.
 
 
+# Objective
 
-📊 Power BI Dashboard
+To ensure the reliability, accuracy, and robustness of an AI-based pricing and demand prediction system through structured QA practices.
 
+# Testing Scope
 
-  Revenue trends analysis
-  Demand vs Pricing insights
-  Product performance
-  Regional sales distribution
+# 1. UI Testing (Flask Web App)
+
+- Validated input fields (price, product, region)
+- Tested invalid, empty, and boundary inputs
+- Verified correct display of predictions
 
 
 
-🎯 Problem Statement
+# 2. API Testing
 
-Businesses often struggle to:
+Performed API validation using Postman
 
-  Forecast demand accurately
-  Optimize pricing strategies
-  Understand sales behavior
-
-This project solves these challenges using data analytics and machine learning.
-
-
-💡 Key Features
-
-  📈 Sales & Revenue Analysis
-  🤖 Demand Prediction (Machine Learning)
-  📊 Interactive Power BI Dashboard
-  🌐 Flask Web Application
-  ☁️ Cloud Deployment (Render)
-
-
-🛠️ Tech Stack
-
- Python (Pandas, NumPy, Scikit-learn)
- Machine Learning (Regression Models)
- Flask (Backend + Web App)
- Power BI (Dashboard & Visualization)
- GitHub (Version Control)
- Render (Deployment)
+- Tested prediction endpoints (GET/POST)
+- Validated status codes (200, 400, 500)
+- Verified JSON response structure
 
 
 
-📂 Project Structure
+# 3. Machine Learning Model Testing (🔥 Unique)
 
-project/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── templates/
-│   └── index.html
+- Tested model with edge cases (very high/low values)
+- Checked consistency of predictions
+- Validated handling of invalid inputs
 
 
 
-📊 Business Insights
+# 4. Data Validation Testing
 
-  Identified revenue trends across time
-  Analyzed pricing impact on demand
-  Detected top-performing products
-  Enabled data-driven decision-making
+- Checked dataset for missing values and duplicates
+- Verified preprocessing steps
 
 
-🤖 Machine Learning
 
- Built regression model for demand prediction
- Applied feature engineering
+# 5. Functional Testing
+
+- End-to-end validation (UI → API → Model output)
 
 
+# Sample Bugs Identified
+
+- Model produced unrealistic predictions for extreme values
+- API failed on null input
+- UI did not validate negative pricing input
+
+# Tools Used
+
+- Python (Pandas, NumPy, Scikit-learn)
+- Flask
+-  Postman
+-   GitHub
+
+# Key Outcome
+
+- Ensured system reliability through multi-layer testing
+- Improved model robustness by identifying edge-case failures
+- Delivered a production-ready AI system with QA validation
+
+
+
+# Conclusion
+
+This project demonstrates strong QA capabilities applied to modern AI systems, including API, UI, and ML validation.
